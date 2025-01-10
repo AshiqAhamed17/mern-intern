@@ -15,7 +15,7 @@ console.log(JSON.stringify(obj));
 const obj2 = new Object();
 obj2.name = "As";
 console.log(obj2)
-const sett = new setImmediate("A", 2, 5,6);
-clg
+const sett = new set("A", 2, 5,6);
+
 
 

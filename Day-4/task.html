@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resizable Image with Opacity Scroller</title>
+    
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+#size-slider, #opacity-slider {
+    margin: 10px 0;
+    width: 300px;
+}
+
+#dynamic-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <input type="range" id="size-slider" min="100" max="500" value="300">
+        <input type="range" id="opacity-slider" min="0" max="1" step="0.1" value="1">
+        <img id="dynamic-image" src="img1.jpg" alt="Resizable Image">
+        <h2> Image Resizer</h2>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
