@@ -5,6 +5,7 @@ import Content from './components/Content'
 
 import './App.css'
 import ClassComp from './components/ClassComp'
+import Gallery from './components/Gallery'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Content />
     </div>
     <ClassComp />
+    <Gallery />
       
     </>
   )

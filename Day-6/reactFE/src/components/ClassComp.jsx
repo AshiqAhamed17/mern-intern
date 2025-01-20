@@ -1,12 +1,13 @@
-import {React} form "react";
+import React from "react";
 
 class ClassComp extends React.Component {
-    render() {
-        <div>
-            <h1>Class Component</h1>
-        </div>
-    }
-
+  render() {
+    return (
+      <div>
+        <h1>Class Component</h1>
+      </div>
+    );
+  }
 }
 
-export default ClassComp
+export default ClassComp;
