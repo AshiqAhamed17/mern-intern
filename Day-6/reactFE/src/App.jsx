@@ -19,7 +19,7 @@ function App() {
       <Content />
     </div>
     <ClassComp />
-    <Gallery />
+    <Gallery content="Content via props" />
       
     </>
   )
