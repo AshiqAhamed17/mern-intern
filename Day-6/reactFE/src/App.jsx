@@ -4,20 +4,20 @@ import Navbar from './components/Navbar'
 import Content from './components/Content'
 
 import './App.css'
+import ClassComp from './components/ClassComp'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     <div>
     <Title />
-      <Navbar />
+    <Navbar />
     </div>
-
     <div> 
       <Content />
     </div>
+    <ClassComp />
       
     </>
   )
