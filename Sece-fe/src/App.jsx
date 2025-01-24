@@ -1,21 +1,23 @@
 //import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Use Routes instead of Switch
 import Navbar from './components/Navbar';
-import { useEffect, useState } from 'react';
+import UseReducer from './Hooks/Use_Reducer';
+//import { useEffect, useState } from 'react';
 
 
 function App() {
-    const [data, setData] = useState();
+    // const [data, setData] = useState();
 
-    useEffect(() => {
-        const res = fetch('https://jsonplaceholder.typicode.com/posts');
-        const jsonData = res.json();
-        setData(jsonData);
-    }, [data]);
+    // useEffect(() => {
+    //     const res = fetch('https://jsonplaceholder.typicode.com/posts');
+    //     const jsonData = res.json();
+    //     setData(jsonData);
+    // }, [data]);
   return (
     <Router>
       <div>
-        <Navbar /> {/* Render Navbar component */}
+        <Navbar /> {}
+        <UseReducer />
         <div style={{ padding: '20px' }}>
           <Routes>
             {/* Define routes */}
@@ -23,7 +25,6 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-          <p> data : {data}</p>
         </div>
       </div>
     </Router>
