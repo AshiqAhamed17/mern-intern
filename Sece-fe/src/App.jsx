@@ -24,6 +24,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/hooks" element={<Hooks />} />
           </Routes>
         </div>
       </div>
@@ -48,6 +49,18 @@ function About() {
 
 function Contact() {
   return <h2>Contact Us</h2>;
+}
+
+function Hooks() {
+  return (
+    <div>
+      <li>
+        <ul> UseState </ul>
+        <ul> UseEffect </ul>
+        <ul> UseReducer </ul>
+      </li>
+    </div>
+  )
 }
 
 
