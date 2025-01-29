@@ -1,0 +1,40 @@
+.editor-container {
+    flex: 3;
+    padding: 20px;
+    background-color: #222121;
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .toolbar button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: rgb(239, 235, 16);
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+  }
+  
+  .toolbar button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .toolbar input {
+    padding: 5px;
+    border: 1px solid #fff700;
+    border-radius: 3px;
+    flex-grow: 1;
+  }
+  
+  .editor-content {
+    min-height: 80vh;
+    padding: 20px;
+    background-color: rgb(19, 18, 18);
+    border: 1px solid #ffff00;
+    color: #ffffff;
+    border-radius: 4px;
+    outline: none;
+  }

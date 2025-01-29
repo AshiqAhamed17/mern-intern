@@ -1,0 +1,43 @@
+.document-list {
+    flex: 1;
+    padding: 20px;
+    background-color: #383636;
+    color: #ffffff;
+    border-right: 1px solid #ffff00;
+  }
+  
+  .document-list button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #e2ed17;
+    color: rgb(65, 63, 63);
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .document-list button:hover {
+    background-color: #f2f8f2;
+    color: #383636;
+  }
+  
+  .document-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .document-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: rgb(86, 81, 81);
+    color: #f7f7f4;
+    border: 1px solid #f3fb04;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .document-list li:hover {
+    background-color: #f0f0f0;
+    color: #383636;
+  }
